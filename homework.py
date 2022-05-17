@@ -50,12 +50,6 @@ Cart.orders()
 Exercise 2 - Write a Python class for an Animal that has a name and energy attributes. The animal class should also have methods for eat, sleep, and play that will take in an integer and increase/decrease the energy of the animal with a formatted print statement
 """
 
-#To Do:
-# X Cannot add negative numbers for sleep, eat, play.
-# X Formatted print statement, copy from shopping cart program
-#Ensure input is an integer for sleep, eat, play, and string for name.
-#
-
 class Animal():
     
     def __init__(self, name, energy):
